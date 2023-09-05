@@ -141,7 +141,7 @@ scheduled_task { 'Disk Cleanup Monthly First Saturday':
     'schedule'        => 'monthly',
     'start_time'      => '07:00',
     'day_of_week'     => 'sat',     # Specify the day of the week to trigger on
-    'which_occurence' => 'first'    # Specify which occurance to trigger on, up to fifth
+    'which_occurrence' => 'first'    # Specify which occurrence to trigger on, up to fifth
   }],
   user      => 'system',
 }
